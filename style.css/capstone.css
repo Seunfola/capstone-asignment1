@@ -1,395 +1,419 @@
-                                                                                                                                                * {
-                                                                                                                                                margin: 0%;
-                                                                                                                                                padding: 0%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            body {
-                                                                                                                                                margin: 0;
-                                                                                                                                                background-color: hsl(218, 28%, 13%);
-                                                                                                                                                color: hsl(0, 0%, 100%);
-                                                                                                                                                font-family: 'Open Sans', sans-serif;
-                                                                                                                                                background-image: url(../.images/bg-curvy-desktop.svg);
-                                                                                                                                                background-repeat: no-repeat;
-                                                                                                                                                background-size: cover;
-                                                                                                                                                font-size: 14px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            h1 {
-                                                                                                                                                font-family: 'Raleway', sans-serif;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .navimg {
-                                                                                                                                                width: 40%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .nav-bar {
-                                                                                                                                                font-family: 'Raleway', sans-serif;
-                                                                                                                                                display: flex;
-                                                                                                                                                color: hsl(0, 0%, 100%);
-                                                                                                                                                background-color: hsl(217, 28%, 15%);
-                                                                                                                                                justify-content: space-between;
-                                                                                                                                                padding: 10px;
-                                                                                                                                                align-items: center;
-                                                                                                                                                width: 100%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .logo {
-                                                                                                                                                margin: auto;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .nav-bar .logo {
-                                                                                                                                                margin: 10px 20px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .nav-bartext {
-                                                                                                                                                width: 50%;
-                                                                                                                                                display: flex;
-                                                                                                                                                justify-content: space-evenly;
-                                                                                                                                                margin-left: 54%;
-                                                                                                                                                margin-top: 15px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .nav-bartext a {
-                                                                                                                                                text-decoration: none;
-                                                                                                                                                color: white;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .start {
-                                                                                                                                                background-image: url(../images/bg-curvy-desktop.svg);
-                                                                                                                                                background-repeat: no-repeat;
-                                                                                                                                                background-position: center bottom;
-                                                                                                                                                background-color: hsl(217, 28%, 15%);
-                                                                                                                                                width: 44%;
-                                                                                                                                                padding: 70px 28% 100px 28%;
-                                                                                                                                                text-align: center;
-                                                                                                                                                color: white;
-                                                                                                                                                text-align: center;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .start-img {
-                                                                                                                                                display: flex;
-                                                                                                                                                justify-content: center;
-                                                                                                                                                width: 100%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .start h1 {
-                                                                                                                                                font-size: 27px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .start p {
-                                                                                                                                                padding: 20px;
-                                                                                                                                                font-size: 16px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            button {
-                                                                                                                                                font-family: 'Raleway', sans-serif;
-                                                                                                                                                border-radius: 25px;
-                                                                                                                                                border: none;
-                                                                                                                                                padding: auto;
-                                                                                                                                                background-color: hsl(198, 60%, 50%);
-                                                                                                                                                color: white;
-                                                                                                                                                min-width: 180px;
-                                                                                                                                                padding: 12px;
-                                                                                                                                                align-items: center;
-                                                                                                                                                cursor: pointer;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                button {
-                                                                                                                                                    margin-top: 20px;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .container1 {
-                                                                                                                                                margin: 50px auto;
-                                                                                                                                                display: flex;
-                                                                                                                                                flex-wrap: wrap;
-                                                                                                                                                width: 80%;
-                                                                                                                                                justify-content: space-between;
-                                                                                                                                                align-items: center;
-                                                                                                                                                justify-content: center;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .container-access {
-                                                                                                                                                width: 35%;
-                                                                                                                                                height: 45vh;
-                                                                                                                                                padding: 0px 10px;
-                                                                                                                                                margin: 30px;
-                                                                                                                                                text-align: center;
-                                                                                                                                                justify-content: space-around;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .container-access img {
-                                                                                                                                                width: 50px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .second-cont {
-                                                                                                                                                    flex-direction: column;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .second-cont {
-                                                                                                                                                margin: 5px auto;
-                                                                                                                                                display: flex;
-                                                                                                                                                justify-content: space-between;
-                                                                                                                                                width: 80%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .second-conttext {
-                                                                                                                                                margin: auto;
-                                                                                                                                                padding: 20px;
-                                                                                                                                                min-width: 47%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .second-conttext {
-                                                                                                                                                    display: block;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .img-fluid {
-                                                                                                                                                max-width: 100%;
-                                                                                                                                                height: auto;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .second-conttext h1 {
-                                                                                                                                                text-align: justify;
-                                                                                                                                                padding: 10px;
-                                                                                                                                                width: 80%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .second-conttext p {
-                                                                                                                                                padding-bottom: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .different {
-                                                                                                                                                color: hsl(176, 68%, 64%);
-                                                                                                                                                padding-top: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            hr {
-                                                                                                                                                width: 150px;
-                                                                                                                                                background-color: hsl(176, 68%, 64%);
-                                                                                                                                                height: 3px;
-                                                                                                                                                border: none;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .tray-logo {
-                                                                                                                                                margin: -45px -20px 0px 0px;
-                                                                                                                                                width: 20px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .tray-container {
-                                                                                                                                                display: flex;
-                                                                                                                                                flex-wrap: nowrap;
-                                                                                                                                                justify-content: space-around;
-                                                                                                                                                margin: 100px auto;
-                                                                                                                                                padding: 20px;
-                                                                                                                                                width: 80%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .tray-container {
-                                                                                                                                                    display: block;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .container {
-                                                                                                                                                background-color: hsl(219, 30%, 18%);
-                                                                                                                                                padding: 20px;
-                                                                                                                                                margin: 15px;
-                                                                                                                                                max-width: 60%;
-                                                                                                                                                border: 1px solid transparent;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .container-tag {
-                                                                                                                                                display: flex;
-                                                                                                                                                width: 100%;
-                                                                                                                                                align-items: left;
-                                                                                                                                                margin: auto;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .tag-textimg {
-                                                                                                                                                margin-top: 10px;
-                                                                                                                                                width: 30px;
-                                                                                                                                                height: 30px;
-                                                                                                                                                border-radius: 50%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .text-tag {
-                                                                                                                                                padding: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .text-tag h1 {
-                                                                                                                                                font-size: 18px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .text-tag p {
-                                                                                                                                                font-size: 11px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont {
-                                                                                                                                                justify-content: center;
-                                                                                                                                                align-items: center;
-                                                                                                                                                padding: 30px;
-                                                                                                                                                margin-left: 20%;
-                                                                                                                                                border: 1px solid transparent;
-                                                                                                                                                background-color: hsl(219, 30%, 18%);
-                                                                                                                                                width: 50%;
-                                                                                                                                                position: absolute;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .lower-icon {
-                                                                                                                                                    display: block;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont-text {
-                                                                                                                                                text-align: center;
-                                                                                                                                                padding: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont-text h1 {
-                                                                                                                                                font-size: 18px;
-                                                                                                                                                padding: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont-text p {
-                                                                                                                                                font-size: 14px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont-btn {
-                                                                                                                                                width: 80%;
-                                                                                                                                                padding: 10px;
-                                                                                                                                                margin: auto;
-                                                                                                                                                justify-content: center;
-                                                                                                                                                align-items: center;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .lower-cont-btn input {
-                                                                                                                                                min-width: 60%;
-                                                                                                                                                height: 5vh;
-                                                                                                                                                margin-right: 15px;
-                                                                                                                                                background-color: white;
-                                                                                                                                                color: black;
-                                                                                                                                                text-align: justify;
-                                                                                                                                                padding: 10px;
-                                                                                                                                                border-radius: 20px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .last-bar {
-                                                                                                                                                display: flex;
-                                                                                                                                                flex-wrap: nowrap;
-                                                                                                                                                align-items: center;
-                                                                                                                                                justify-content: center;
-                                                                                                                                                width: 80%;
-                                                                                                                                                margin: 230px auto 30px auto;
-                                                                                                                                                padding: 120px;
-                                                                                                                                                border: 1px solid transparent;
-                                                                                                                                                background-color: hsl(216, 53%, 9%);
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .last-bar {
-                                                                                                                                                    flex-direction: column;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .img-icon {
-                                                                                                                                                width: 30%;
-                                                                                                                                                justify-content: center;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .img-icon {
-                                                                                                                                                    margin-top: 80px;
-                                                                                                                                                    width: 80%;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .img-icon img {
-                                                                                                                                                padding: 0px 0px 10px 0px;
-                                                                                                                                                margin: auto;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            span {
-                                                                                                                                                display: flex;
-                                                                                                                                                justify-content: center;
-                                                                                                                                                margin-right: 10px;
-                                                                                                                                                padding-bottom: 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                span {
-                                                                                                                                                    width: 100%;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            span p {
-                                                                                                                                                padding: 0px 10px 5px 10px
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .con {
-                                                                                                                                                display: flex;
-                                                                                                                                                padding-right: 20px;
-                                                                                                                                                width: 90%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .con {
-                                                                                                                                                    display: block;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .second-con {
-                                                                                                                                                margin: 0px 15px;
-                                                                                                                                                width: 30%;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width) {
-                                                                                                                                                .second-con {
-                                                                                                                                                    display: block;
-                                                                                                                                                    width: 80%;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .third-con {
-                                                                                                                                                margin: opx 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .third-con {
-                                                                                                                                                    margin-top: 20px;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .third-con p {
-                                                                                                                                                width: 100px;
-                                                                                                                                                padding-bottom: 5px;
-                                                                                                                                                height: 3vh;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .icon i {
-                                                                                                                                                margin-left: 25px;
-                                                                                                                                                padding: 0px 10px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .icon {
-                                                                                                                                                    margin-top: 20px;
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            .cont4 p {
-                                                                                                                                                padding-bottom: 5px;
-                                                                                                                                            }
-                                                                                                                                            
-                                                                                                                                            @media(max-width:786px) {
-                                                                                                                                                .cont4 {
-                                                                                                                                                    margin-top: 20px;
-                                                                                                                                                }
-                                                                                                                                                .mb-50 {
-                                                                                                                                                    margin-bottom: 50px;
-                                                                                                                                                }
+/* * {
+    margin: 0%;
+    padding: 0%;
+} */
+
+body {
+    margin: 0;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../.images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navimg {
+    width: 20%;
+}
+
+.nav-bar {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 28%, 15%);
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-bar .logo {
+    margin: 10px 20px;
+}
+
+.nav-bartext {
+    text-align: right;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.nav-bartext a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.nav-bartext a:last-child {
+    margin-right: 0px;
+}
+
+.start {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: hsl(217, 28%, 15%);
+    width: 44%;
+    padding: 70px 28% 100px 28%;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+.start-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.start h1 {
+    font-size: 27px;
+}
+
+.start p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 25px;
+    border: none;
+    padding: auto;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    min-width: 180px;
+    padding: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.m-0 {
+    margin: 0;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.footer-note {
+    max-width: 30%;
+}
+
+.container1 {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-access {
+    width: 35%;
+    padding: 0px 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+.container-access img {
+    width: 50px;
+}
+
+/* @media(max-width:786px) {
+    .second-cont {
+        flex-direction: column;
+    }
+} */
+
+.second-cont {
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.second-conttext {
+    margin: auto;
+    padding: 20px;
+    min-width: 45%;
+}
+
+/* @media(max-width:786px) {
+    .second-conttext {
+        display: block;
+    }
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.second-conttext h2 {
+    width: 70%;
+    font-size: 28px;
+}
+
+.different {
+    display: inline-block;
+    color: hsl(176, 68%, 64%);
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.tray-logo {
+    position: absolute;
+    top: -15px;
+    left: -8px;
+}
+
+.tray-container {
+    margin: 100px auto;
+    width: 80%;
+    position: relative
+}
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    margin: 20px 0px;
+    max-width: 26%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.tag-textimg {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.text-tag {
+    padding: 10px;
+}
+
+.text-tag h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.text-tag p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.lower-cont {
+    padding: 25px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: hsl(219, 30%, 18%);
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    box-sizing: border-box;
+}
+
+.lower-cont-text {
+    text-align: center;
+    padding: 10px;
+}
+
+.lower-cont-text h1 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.lower-cont-text p {
+    font-size: 14px;
+}
+
+.lower-cont-btn {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-cont-btn input {
+    min-width: 60%;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.last-bar {
+    margin: 230px 0 30px 0;
+    padding: 200px 10% 150px 10%;
+    background-color: hsl(216, 53%, 9%);
+}
+.last-bar h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.last-bar ul {
+    list-style: none;
+    padding: 0;
+}
+.last-bar ul li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.last-bar ul a {
+    color: #fff;
+    text-decoration: none;
+}
+.last-bar ul a:hover {
+    text-decoration: underline;
+}
+.last-bar h3 {
+    margin: 0;
+}
+.social-icons a {
+    color: #fff;
+}
+.social-icons i {
+    font-size: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+span p {
+    padding: 0px 10px 5px 10px
+}
+
+.con {
+    display: flex;
+    padding-right: 20px;
+    width: 90%;
+}
+.second-con {
+    margin: 0px 15px;
+    width: 30%;
+}
+
+.third-con {
+    margin: opx 10px;
+}
+
+.third-con p {
+    width: 100px;
+    padding-bottom: 5px;
+    height: 3vh;
+}
+
+.icon i {
+    margin-left: 25px;
+    padding: 0px 10px;
+}
+
+.cont4 p {
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 636px) {
+  .nav-bar {
+    padding: 20px 30px;
+  }
+  .start {
+    width: 80%;
+    padding: 70px 10% 100px 10%;
+  }
+  button {
+    font-size: 16px;
+    width: 75%;
+    font-weight: bold;
+    padding: 15px;
+ }
+ .container1 {
+    display: block;
+  }
+  .container-access {
+     width: 100%;
+     margin: 0;
+     margin-bottom: 80px;
+   }
+   .second-cont {
+       display: block;
+   }
+   .testimonials {
+       display: block;
+   }
+   .container {
+       min-width: 100%;
+   }
+   .tray-logo {
+       width: 35px;
+       top: -12px;
+   }
+   .lower-cont {
+       width: 90%;
+       left: 5%;
+       margin-left: 0;
+   }
+   .lower-cont-btn input {
+       width: 100%;
+       margin-bottom: 20px;
+       padding: 15px;
+   }
+   .lower-cont-btn button {
+       width: 100%;
+   }
+   .last-bar-items {
+       display: block;
+   }
+   .footer-note {
+       min-width: 100%;
+       margin-bottom: 20px;
+   }
+   .last-bar {
+    padding: 300px 10% 150px 10%;
+   }
+   .mb-m-50 {
+       margin-bottom: 50px;
+   }
+   .social-icons {
+       text-align: center;
+   }
+}
